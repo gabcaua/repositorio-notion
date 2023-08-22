@@ -507,7 +507,8 @@ function defaultLoader({ config , src , width , quality  }) {
     function widthOptimizer (int) {
 
         let widths = {
-            '3840': '1920'
+            '3840': '1080',
+            '2048': '1080'
         };
 
         int = Number(int);
