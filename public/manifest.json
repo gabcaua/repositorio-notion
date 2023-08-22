@@ -1,0 +1,14 @@
+{
+  "name": "Blog de Cauã",
+  "short_name": "Oi, Mundo.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/ico",
+      "sizes": "32x32"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
+}
