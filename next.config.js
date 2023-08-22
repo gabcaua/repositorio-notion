@@ -23,7 +23,8 @@ module.exports = withBundleAnalyzer({
       'pbs.twimg.com',
       'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
-      'blog.cgsilva.com.br',
+      'repositorio.cgsilva.com.br',
+      'www.repositorio.cgsilva.com.br',
       '64.media.tumblr.com'
     ],
 
