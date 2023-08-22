@@ -8,7 +8,7 @@ module.exports = withBundleAnalyzer({
   experimental: {
     nextScriptWorkers: true,
     optimizeCss: true,
-    workerThreads: true,
+    //workerThreads: true,
     scrollRestoration: true
   },
   compress: true,
@@ -23,8 +23,8 @@ module.exports = withBundleAnalyzer({
       'pbs.twimg.com',
       'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
-      'repositorio.cgsilva.com.br',
-      'www.repositorio.cgsilva.com.br',
+    //  'repositorio.cgsilva.com.br',
+     // 'www.repositorio.cgsilva.com.br',
       '64.media.tumblr.com'
     ],
 
