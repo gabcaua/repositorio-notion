@@ -1,7 +1,8 @@
 import * as React from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
-import { Partytown } from '@builder.io/partytown/react';
+
+import { Partytown } from '@builder.io/partytown/react'
 
 import * as config from '@/lib/config'
 import * as types from '@/lib/types'
@@ -26,14 +27,14 @@ export const PageHead: React.FC<
   return (
     <Head>
       <Partytown debug={false} forward={['dataLayer.push']} />
-      <Script
+      {/*<Script
         async
         defer
         type="text/partytown"
         strategy='worker'
         src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3730111662635989'
         crossOrigin='anonymous'
-      />
+  />*/}
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
