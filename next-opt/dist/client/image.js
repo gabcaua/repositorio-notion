@@ -504,7 +504,7 @@ function defaultLoader({ config , src , width , quality  }) {
         // through the built-in Image Optimization API.
         return src;
     }
-    return `${(0, _normalizeTrailingSlash).normalizePathTrailingSlash(config.path)}?url=${encodeURIComponent(src)}&w=${width / 3}&q=${quality || 25}`;
+    return `${(0, _normalizeTrailingSlash).normalizePathTrailingSlash(config.path)}?url=${encodeURIComponent(src)}&w=${width / 2}&q=${quality || 20}`;
 }
 const loaders = new Map([
     [
