@@ -163,3 +163,12 @@ body {
   line-height: 1.4;
   color: rgba(0,0,0,0.9);
 }
+.dark-mode notion-asset-caption {
+  padding: 6px 0 6px 2px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  caret-color: var(--fg-color);
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255,255,255,0.9);
+}
