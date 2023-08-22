@@ -35,8 +35,8 @@ export const FooterImpl: React.FC = () => {
     const commentsDiv = document.getElementById('post-comments');
     script.async = true;
     script.setAttribute('src', 'https://giscus.app/client.js');
-    script.setAttribute('data-repo', 'gabcaua/blog-v2');
-    script.setAttribute('data-repo-id', 'R_kgDOKGxqsg');
+    script.setAttribute('data-repo', 'gabcaua/repositorio-notion');
+    script.setAttribute('data-repo-id', 'R_kgDOKKO98g');
     script.setAttribute('data-category', 'Announcements');
     script.setAttribute('data-category-id', 'DIC_kwDOKGxqss4CYrZ2');
     script.setAttribute('data-mapping', 'title');

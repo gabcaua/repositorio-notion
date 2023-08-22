@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Head from 'next/head'
-import Script from 'next/script'
+//import Script from 'next/script'
 
 import { Partytown } from '@builder.io/partytown/react'
 
