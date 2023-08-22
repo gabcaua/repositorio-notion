@@ -6,7 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   staticPageGenerationTimeout: 300,
   experimental: {
-    nextScriptWorkers: true,
+    //nextScriptWorkers: true,
     optimizeCss: true,
     // workerThreads: true,
     scrollRestoration: true
@@ -28,7 +28,7 @@ module.exports = withBundleAnalyzer({
       '64.media.tumblr.com'
     ],
 
-    formats: ['image/avif'],
+    formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 360,
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
