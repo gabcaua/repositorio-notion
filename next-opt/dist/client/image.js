@@ -509,14 +509,14 @@ function defaultLoader({ config , src , width , quality  }) {
         let widths = {
             '3840': '1080',
             '2048': '1080'
-        };
+        };  
 
         int = Number(int);
         if (!int) return int;
         if (widths[String(int)]) return widths[int];
         else return int;
     }
-    return `${(0, _normalizeTrailingSlash).normalizePathTrailingSlash(config.path)}?url=${encodeURIComponent(src)}&w=${widthOptimizer(width)}&q=${quality || 20}`;
+    return `${(0, _normalizeTrailingSlash).normalizePathTrailingSlash(config.path)}?url=${encodeURIComponent(src)}&w=${widthOptimizer(width)}&q=${quality || 60}`;
 }
 const loaders = new Map([
     [
