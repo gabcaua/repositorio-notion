@@ -2,26 +2,26 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'a475fd3d685e43d098fe3a1e4e276698',
+  rootNotionPageId: '1d251268ba1145dfa935c6368c2a12be',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   //rootNotionSpaceId: 'fb420fb7-4dec-44d9-b9b3-a17d4460c9b8',
 
   // basic site info (required)
-  name: 'Oi, mundo.',
-  domain: 'blog.cgsilva.com.br',
+  name: 'Repositório - Trabalhos Acadêmicos - Cauã Gabriel',
+  domain: 'repositorio.cgsilva.com.br',
   author: 'Cauã Gabriel',
-  language: 'pt',
+  language: 'pt-BR',
   // open graph metadata (optional)
-  description: 'Fatos de uma vida inteira num site.',
+  description: 'O Repositório - Cauã Gabriel é uma iniciativa para armazenar, preservar e divulgar as contribuições de Cauã e colaboradores (as) para a educação e a ciência. contato@cgsilva.com.br',
 
   // social usernames (optional)
   twitter: 'imgabcaua',
   github: 'gabcaua',
   linkedin: 'cgsilva-dev',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
-   newsletter: 'mailto:contato@cgsilva.com.br?subject=Seu blog.', // optional newsletter URL
+   newsletter: 'mailto:contato@cgsilva.com.br?subject=Seus trabalhos.', // optional newsletter URL
    youtube: '@cn_estudios', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
