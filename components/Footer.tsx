@@ -38,12 +38,12 @@ export const FooterImpl: React.FC = () => {
     script.setAttribute('data-repo', 'gabcaua/repositorio-notion');
     script.setAttribute('data-repo-id', 'R_kgDOKKO98g');
     script.setAttribute('data-category', 'Announcements');
-    script.setAttribute('data-category-id', 'DIC_kwDOKGxqss4CYrZ2');
+    script.setAttribute('data-category-id', 'DIC_kwDOKKO98s4CYyi5');
     script.setAttribute('data-mapping', 'title');
     script.setAttribute('data-strict', '0');
     script.setAttribute('data-reactions-enabled', '1');
     script.setAttribute('data-emit-metadata', '0');
-    script.setAttribute('data-input-position', 'top');
+    script.setAttribute('data-input-position', 'bottom');
     script.setAttribute('data-theme', isDarkMode ? 'noborder_dark' : 'noborder_light')
     script.setAttribute('data-lang', 'pt');
     script.setAttribute('data-loading', 'lazy');
