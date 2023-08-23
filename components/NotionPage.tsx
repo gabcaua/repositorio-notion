@@ -124,7 +124,9 @@ const propertyDateValue = (
     if (publishDate) {
       return `${new Date(publishDate).toLocaleDateString('pt-BR', {
         month: 'long',
-        year: 'numeric'
+        year: 'numeric',
+        dayPeriod: 'long',
+        day: 'numeric'
       })}`
     }
   }
