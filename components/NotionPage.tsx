@@ -126,6 +126,7 @@ const propertyDateValue = (
         month: 'long',
         year: 'numeric',
         dayPeriod: 'long',
+        hour: '2-digit',
         day: 'numeric'
       })}`
     }
