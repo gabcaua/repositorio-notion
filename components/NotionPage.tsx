@@ -126,7 +126,10 @@ const propertyDateValue = (
         month: 'long',
         year: 'numeric',
         dayPeriod: 'long',
-        hour: '2-digit',
+        hourCycle: 'h11',
+        hour: 'numeric',
+        minute: 'numeric',
+        timeZone: 'America/Sao_Paulo',
         day: 'numeric'
       })}`
     }
