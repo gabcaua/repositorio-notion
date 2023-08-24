@@ -129,7 +129,7 @@ const propertyDateValue = (
         hourCycle: 'h11',
         hour: 'numeric',
         minute: 'numeric',
-        timeZone: 'America/Sao_Paulo',
+        timeZone: 'UTC',
         day: 'numeric'
       })}`
     }
