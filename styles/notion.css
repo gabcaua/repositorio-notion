@@ -354,7 +354,8 @@
   background: none !important;
 }
 .notion-page-icon-hero.notion-page-icon-image .notion-page-icon {
-border-radius: 50%
+border-radius: 50%;
+filter: drop-shadow( 3px 3px 6px rgba(-2, 0, 0, 0.5));
 }
 /* if you don't want rounded page icon images, remove this */
 .notion-page-icon-hero.notion-page-icon-image {
