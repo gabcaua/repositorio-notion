@@ -154,3 +154,7 @@ body {
     padding-bottom: 3rem;
   }
 }
+
+.gsc-reactions-popover.bottom {
+  box-shadow: 0.2px 0.2px 16px 0.2px rgba(0,0,0,0.2)
+}
