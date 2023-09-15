@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }: AppProps) {
           inputElement.placeholder = 'Escreva qualquer coisa...'
           clearInterval(interval)
         }
-        let breads = document.querySelector('div.breadcrumb.button.notion-search-button span.title')
+        const breads = document.querySelector('div.breadcrumb.button.notion-search-button span.title')
         if (breads) document.querySelector(
           'div.breadcrumb.button.notion-search-button span.title'
         ).innerHTML = 'Pesquisar'
