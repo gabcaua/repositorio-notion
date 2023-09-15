@@ -10,11 +10,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Repositório - Trabalhos Acadêmicos - Cauã Gabriel',
-  domain: 'repositorio.cgsilva.com.br',
+  domain: 'www.repositorio.cgsilva.com.br',
   author: 'Cauã Gabriel',
   language: 'pt-BR',
   // open graph metadata (optional)
-  description: 'O Repositório - Cauã Gabriel é uma iniciativa para armazenar, preservar e divulgar as contribuições de Cauã e colaboradores (as) para a educação e a ciência. contato@cgsilva.com.br',
+  description: 'O Repositório - Cauã Gabriel é uma iniciativa para armazenar, preservar e divulgar as contribuições de Cauã e colaboradores para a educação e a ciência. E-mail: contato@cgsilva.com.br',
 
   // social usernames (optional)
   twitter: 'imgabcaua',
@@ -28,7 +28,7 @@ export default siteConfig({
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
-  defaultPageCoverPosition: 0.5,
+  defaultPageCoverPosition: 0.75,
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
