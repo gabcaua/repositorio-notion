@@ -36,21 +36,21 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
 
   React.useEffect(() => {
-    try {
-      const interval = setInterval(() => {
+    const interval = setInterval(() => {
+      try {
         if (document.querySelector('input.searchInput')) {
           const inputElement: any = document.querySelector('input.searchInput')
           inputElement.placeholder = 'Escreva qualquer coisa...'
           clearInterval(interval)
         }
-
-        document.querySelector(
+        let breads = document.querySelector('div.breadcrumb.button.notion-search-button span.title')
+        if (breads) document.querySelector(
           'div.breadcrumb.button.notion-search-button span.title'
         ).innerHTML = 'Pesquisar'
-      }, 2_000)
-    } catch (error) {
-      //  console.error(error)
-    }
+      } catch (error) {
+        //  console.error(error)
+      }
+    }, 2_000)
 
     function onRouteChangeComplete() {
       if (fathomId) {

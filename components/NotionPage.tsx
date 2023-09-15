@@ -120,15 +120,15 @@ const propertyDateValue = (
 ) => {
   if (pageHeader && schema?.name?.toLowerCase() === 'published') {
     const publishDate = data?.[0]?.[1]?.[0]?.[1]?.start_date
-
+    console.log(data?.[0]?.[1]?.[0]?.[1])
     if (publishDate) {
       return `${new Date(publishDate).toLocaleDateString('pt-BR', {
         month: 'long',
         year: 'numeric',
-        dayPeriod: 'long',
-        hourCycle: 'h11',
-        hour: 'numeric',
-        minute: 'numeric',
+       // dayPeriod: 'long',
+       // hourCycle: 'h11',
+       // hour: 'numeric',
+       // minute: 'numeric',
         timeZone: 'UTC',
         day: 'numeric'
       })}`
