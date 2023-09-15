@@ -48,7 +48,7 @@ export default siteConfig({
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
-    '/caua~': ""
+    '/caua~': "dd3db2247f3349619fbe7437f1e5e2c2"
   },
 
   // whether to use the default notion navigation style or a custom one with links to
