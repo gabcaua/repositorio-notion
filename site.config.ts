@@ -9,12 +9,12 @@ export default siteConfig({
   //rootNotionSpaceId: 'fb420fb7-4dec-44d9-b9b3-a17d4460c9b8',
 
   // basic site info (required)
-  name: 'Repositório - Trabalhos Acadêmicos - Cauã Gabriel',
+  name: 'Repositório - Cauã Gabriel',
   domain: 'www.repositorio.cgsilva.com.br',
   author: 'Cauã Gabriel',
   language: 'pt-BR',
   // open graph metadata (optional)
-  description: 'O Repositório - Cauã Gabriel é uma iniciativa para armazenar, preservar e divulgar as contribuições de Cauã e colaboradores para a educação e a ciência. E-mail: contato@cgsilva.com.br',
+  description: 'O Repositório - Cauã Gabriel é uma iniciativa para armazenar, preservar e divulgar as contribuições de Cauã Gabriel da Silva e colaboradores para a educação e a ciência. E-mail: contato@cgsilva.com.br',
 
   // social usernames (optional)
   twitter: 'imgabcaua',

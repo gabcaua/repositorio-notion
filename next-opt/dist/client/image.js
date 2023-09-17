@@ -262,7 +262,7 @@ function Image(_param) {
     const blurStyle = placeholder === 'blur' && !blurComplete ? {
         backgroundSize: objectFit || 'cover',
         backgroundPosition: objectPosition || '0% 0%',
-        filter: 'blur(0px)',
+        filter: 'blur(24px)',
         backgroundImage: `url("${blurDataURL}")`
     } : {};
     if (layout === 'fill') {
@@ -516,7 +516,7 @@ function defaultLoader({ config , src , width , quality  }) {
         if (widths[String(int)]) return widths[int];
         else return int;
     }
-    return `${(0, _normalizeTrailingSlash).normalizePathTrailingSlash(config.path)}?url=${encodeURIComponent(src)}&w=${widthOptimizer(width)}&q=${quality || 30}`;
+    return `${(0, _normalizeTrailingSlash).normalizePathTrailingSlash(config.path)}?url=${encodeURIComponent(src)}&w=${widthOptimizer(width)}&q=${quality || 75}`;
 }
 const loaders = new Map([
     [
