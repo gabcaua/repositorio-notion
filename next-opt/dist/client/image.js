@@ -216,8 +216,8 @@ function Image(_param) {
                 const urlStr = loader({
                     config,
                     src,
-                    width: widthInt || 400,
-                    quality: qualityInt || 25
+                    width: widthInt || 800,
+                    quality: qualityInt || 30
                 });
                 let url;
                 try {
