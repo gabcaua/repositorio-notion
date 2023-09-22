@@ -6,7 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = withBundleAnalyzer({
   staticPageGenerationTimeout: 300,
   experimental: {
-    workerThreads: true,
+    workerThreads: false,
     nextScriptWorkers: true,
     optimizeCss: true,
     //workerThreads: true,
