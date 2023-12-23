@@ -27,6 +27,7 @@ export const PageHead: React.FC<
   return (
     <Head>
       <meta name="google-site-verification" content="OukaHj51NtPx_BiH6rRrQIIY2ng3s3cryYWF8MgFXgc" />
+      <meta name="google-adsense-account" content="ca-pub-3730111662635989">
       <Partytown debug={false} forward={['dataLayer.push']} />
       {/*<Script
         async
