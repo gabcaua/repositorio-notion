@@ -254,7 +254,7 @@
             sum += dataArray[i];
           }
           let average = sum / bufferLength;
-          return average > 40;
+          return average > 33;
         }
         function blowOutCandles() {
           let blownOut = 0;
@@ -313,7 +313,7 @@
                   birthdayAudio.play();
                   turnOffCandles();
                 }
-              }, 6_200);
+              }, 10_000);
             })
             .catch(function (err) {
               console.log("Unable to access microphone: " + err);
